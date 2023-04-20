@@ -1,0 +1,2 @@
+native lsp : improper autocompletion due to improper configuration
+treesitter : prefer git set to false to avoid "... .so is not a valid win32 application" , but some prefers git such as typescript
