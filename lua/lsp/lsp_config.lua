@@ -53,8 +53,20 @@ local servers = {
 		capabilities = capabilities,
 		on_attach = on_attach(),
 	},
-	css,
+	cssls = {
+		capabilities = capabilities,
+		on_attach = on_attach(),
+	},
+
 	rust_analyser,
+	tsserver = {
+		capabilities = capabilities,
+		on_attach = on_attach(),
+	},
+	tailwindcss = {
+		capabilities = capabilities,
+		on_attach = on_attach(),
+	},
 }
 
 require("neodev").setup()
@@ -84,5 +96,3 @@ mason_lspconfig.setup_handlers({
 		})
 	end,
 })
-
-

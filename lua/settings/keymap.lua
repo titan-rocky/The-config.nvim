@@ -47,15 +47,15 @@ keymap.set("n", "<A-g>", ":!g++ %:r.cpp -o %:r.out && %:r.out<CR>")
 
 --- NvimTree -----------------------------------------------------------------------------------------------
 
-keymap.set("n", "<leader>ov", "<cmd>NvimTreeToggle<CR>")
+keymap.set("n", "<leader>tt", "<cmd>NvimTreeToggle<CR>")
 
---- LspConfig ----------------------------------------------------------------------------------------------
--- Refer lua/lsp/lsp-config.lua for nmap keys
+--- LspConfig : Refer lua/lsp/lsp-config.lua for nmap keys -------------------------------------------------
+
 -- Harpoon -------------------------------------------------------------------------------------------------
 keymap.set("n", "<C-S>", ':lua require("harpoon.mark").add_file()<CR>')
 keymap.set("n", "<A-t>", ':lua require("harpoon.ui").toggle_quick_menu()<CR>')
 keymap.set("n", "<A-j>", ':lua require("harpoon.ui").nav_next()<CR>')
 keymap.set("n", "<A-k>", ':lua require("harpoon.ui").nav_prev()<CR>')
 
---
+-- Terminal Toggle ----------------------------------------------------------------------------------------
 keymap.set("n", "<A-s>", ":ToggleTerm<CR>")

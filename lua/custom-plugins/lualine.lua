@@ -66,7 +66,7 @@ local custom_config = {
 -- See `:help lualine.txt`
 --
 local temps = function()
-	return report.strfeed
+	return report.kfeed
 end
 
 require("lualine").setup({
