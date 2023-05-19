@@ -1,2 +1,2 @@
 # The-config.nvim
-A Neovim Kickstart Config
+A Neovim Kickstart Config for beginners

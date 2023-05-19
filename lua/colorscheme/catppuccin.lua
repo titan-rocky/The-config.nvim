@@ -1,4 +1,3 @@
-
         require("catppuccin").setup({
             background = {
                 light = "mocha",
